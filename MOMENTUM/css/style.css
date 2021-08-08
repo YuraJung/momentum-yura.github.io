@@ -1,0 +1,134 @@
+body {
+    background-size: cover;
+    
+}
+
+#weather {
+    text-align: end;
+    font-family: fantasy;
+    color: white;
+    text-shadow:1px 1px 3px black;
+    padding: 10px;
+    opacity: 80%;
+}
+
+#login_Btn {
+    background: none;
+    border: 3px solid #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: fantasy;
+    text-shadow:1px 1px 3px black;
+    
+    
+}
+
+#login_Input {
+    background: none;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-family: fantasy;
+    text-shadow:1px 1px 3px black;
+    
+}
+
+#my_Todo {
+    background: none;
+    font-size: 20px;
+    padding-left: 7px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+
+.todo_span {
+    
+    font-family: fantasy;
+    color: white;
+    text-shadow:1px 1px 5px black;
+}
+
+Input::placeholder {
+    color: white;
+    font-family: fantasy;
+  }
+
+      
+
+  #todo-div {
+      padding-left: 300px;
+      position: relative;
+      z-index: 3;
+      text-align: left;
+      list-style: circle;
+      color: white;
+     
+  }
+
+  .todo_btn{
+      background: none;
+      color: white;
+      border: thin;
+      font-family: fantasy;
+  }
+
+.hidden {
+    display: none;
+}
+
+.clock_point {
+    position: relative;
+    z-index: 3;
+    margin-top: 200px;
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 100px;
+    font-family:fantasy;
+    color: white;
+    text-shadow:1px 1px 5px black;
+    
+}
+
+.greeting_point {
+   
+    position: relative;
+    z-index: 2;
+    margin-top: 0%;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    border: white;
+    color: white;
+    text-shadow:1px 1px 5px black;
+}
+
+.quotes_point {
+    position: relative;
+    z-index: 1;
+    top: 200px;
+    text-align:center;
+    font-family: fantasy;
+    color: white;
+    text-shadow:1px 2px 5px black;
+}
+
+.background_point {
+
+
+    position: relative;
+    text-align : center;
+    z-index:-1;
+
+    
+}
+
+#hidden-todo {
+    position: relative;
+    z-index: 3;
+    font-family: fantasy;
+    color: white;
+}
